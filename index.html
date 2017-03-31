@@ -1,0 +1,25 @@
+<html>
+
+    <body>
+    <div></div>
+    <div style="padding:20px "></div>
+    <div id="myGrid" style="height: 100%;" class="ag-fresh"></div>
+    </div>
+    <div style="padding: 4px; padding-left: 10px; position: absolute; top: 0px; left: 0px;">
+        <button onclick="gridOptions.columnApi.setPivotMode(true)">Pivot Mode On</button>
+        <button onclick="gridOptions.columnApi.setPivotMode(false)">Pivot Mode Off</button>
+        &nbsp;&nbsp;
+        <button onclick="gridOptions.columnApi.addPivotColumn('country')">Pivot Country</button>
+        <button onclick="gridOptions.columnApi.addPivotColumns(['year','country'])">Pivot Year & Country</button>
+        <button onclick="gridOptions.columnApi.removePivotColumn('country')">Un-Pivot Country</button>
+        &nbsp;&nbsp;
+        <button onclick="gridOptions.columnApi.setPivotColumns([])">Remove All Pivots</button>
+        &nbsp;&nbsp;
+        <button onclick="gridOptions.api.exportDataAsCsv({})">CSV Export</button>
+    </div>
+    </body>
+
+</html>
+
+<!-- Load the script at the bottom, so the html page is loaded first -->
+<script type="text/javascript" src="dist/main.bundled.js" charset="utf-8"></script>
