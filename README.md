@@ -14,10 +14,13 @@ To build:
 - step3: `gulp`
 
 Once step 3 is complete goto `index.html`,`right click `and run it . 
+All the data is from data.json , Header width is fixed in Main.js accoding data.Json . 
 
 Here is how it should look 
 
 ![Alt text](screen1.png "Screen 1")
+
+
 
 
 
