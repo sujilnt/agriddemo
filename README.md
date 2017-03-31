@@ -13,6 +13,11 @@ To build:
 - step2: `npm install gulp -g`
 - step3: `gulp`
 
-Once step 3 is complete goto `index.html` , `right click `and run it . 
+Once step 3 is complete goto `index.html`,`right click `and run it . 
+
+Here is how it should look 
+
+![Alt text](/agriddemo/screen1 "Screen 1")
+
 
 
