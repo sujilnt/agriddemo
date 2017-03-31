@@ -17,7 +17,7 @@ Once step 3 is complete goto `index.html`,`right click `and run it .
 
 Here is how it should look 
 
-![Alt text](/agriddemo/screen1.png "Screen 1")
+![Alt text](screen1.png "Screen 1")
 
 
 
